@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro de Personas</h1>
+
+    <div>
+        <label>Nombre:</label>
+        <input type="text" id="nombre" placeholder="Ingrese el nombre">
+    </div>
+    <div>
+        <label>Apellido:</label>
+        <input type="text" id="apellido" placeholder="Ingrese el apellido">
+    </div>
+    <div>
+        <label>DNI:</label>
+        <input type="text" id="dni" placeholder="Ingrese el DNI">
+    </div>
+    <div>
+        <label>Teléfonos (Si tiene mas de uno separelo con una coma):</label>
+        <input type="text" id="telefonos" placeholder="3718493920,3704309213">
+    </div>
+
+    <button onclick="agregarPersona()">Agregar Persona</button>
+    <button onclick="mostrarDatos()">Mostrar Personas</button>
+
+    <h2>Resultado:</h2>
+    <pre id="resultado"></pre>
+    
+    <script src="../static/scripts.js"></script>
+</body>
+</html>
